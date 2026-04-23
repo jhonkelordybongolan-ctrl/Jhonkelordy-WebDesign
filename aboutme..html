@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style type="text/css">
+.sub-menu{
+    border:1px solid black;
+    border-collapse: collapse;
+    width:100%;
+    table-layout: fixed;
+    height:10vh;
+    background-color: pink;
+    position:fixed;
+    top:10vh;
+    text-align:center;
+}
+h1{
+	text-align:center
+}
+  .row td {
+	   border:1px solid black;
+}
+  .section div{
+	   min-height:80vh;
+}
+  .section div:nth-child(1){
+    background-color:skyblue;
+  
+}
+  .section div:nth-child(2){
+	   background-color:skyblue;
+}
+  .section div:nth-child(3){
+    background-color:skyblue;
+}
+ .section div:nth-child(4){
+    background-color:skyblue;
+}
+  .section{
+    	margin-top:20vh;
+}
+  .about{
+    display:flex;
+    justify-content:space-between;
+    padding:60px 10%;
+    gap:20;
+  	
+}
+
+.birth-month{
+    	border: 5px solid black;
+    	width: 100vw;
+    	table-layout: fixed;
+    	border-collapse: collapse;
+    	text-align: center;
+    }
+    .birth-week th, td{
+    	border: 1px solid black ;
+    }
+    .birthday{
+		background-color:pink;
+
+	}
+  .about-text{
+    flex:1;
+}
+  .about-image{
+	   flex:1;
+}
+  .about-image img{
+	   height:75%;
+	   border-radius:75%;
+	   box-shadow:3px 3px 5px rgba(0,0,0,5);
+	   width:70%;
+}
+  #latest,#birth,#educ,#skill{
+	   scroll-margin-top: 20vh;
+}
+  html{
+  	 scroll-behavior:smooth;
+  }
+    
+  @media (max-width:600px){}
+	   .section{
+		      flex-direction:column;
+		      text-align:center;
+	}
+  	section img{
+    heigth:30%;
+	}
+  	h1{
+  		text-align:right;
+  	}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  justify-content: center;
+  align-items: center;
+}
+	 	
+.popup-content {
+	 backround:ligthblue;
+	 padding: 10px;
+ 	text-align: center;
+	 border-radius: 10px;
+}
+  	
+ .popup-content img {
+ 	width: 20vw;
+ 	heigth:40vh;
+ 	boerder-radius: 10px;
+}
+#educ img{
+	max-height:80vh;
+	height:100%;
+	border-radius:0;
+}  
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+	align-items: flex-start; 
+}
+
+.skill-box {
+  border: 3px solid black;
+  width: 180px;
+  height: 10px;
+  text-align: center;
+  padding: 0;
+  background-color: white;
+}
+
+.skill-box img {
+  width: 100%;
+  height: 120px;
+  border-radius:0;
+}
+
+.skill-box p {
+  margin-top: 5px;
+  font-weight: bold;
+} 	
+</style>
+<bo
+  	</style>
+<body>
+<header>
+	 <ul>
+    <li><a href="">My Portfolio</a></li>
+	   <li><a href=""><img src="Pogi.jpg"></a></li>
+		<li><a href="index.html">Home Page</a></li>
+		<li><a href="aboutme.html">About Me</a></li>	
+		<li><a href="contact.html">Contacts</a></li>
+		<li><a href="">Profile</a></li>
+	</ul>
+</header>
+	<table class="sub-menu">
+		<tr class="row">
+			 <td><a href="#latest">Latest Updates</a></td>
+			 <td><a href="#birth">Birthday</a></td>
+			 <td><a href="#educ">Education Background</a></td>
+			 <td><a href="#skill">Skills</a></td>			
+		</tr>
+	</table>
+	<div class="section">
+		<div id="latest"class="about">
+			<section class="about-text">
+				<h1>Latest Updates</h1>
+				<p>Hi my Name is Jhon Kelordy Bongolan My latest update is continuing to fight in studies so that i can build my business for my family and so that i can save them from the hardships of life in this world</p>
+			</section>
+			<section class="about-image">
+				<img src="Pogi.jpg" alt="hi this is me">
+			</section>
+			</div>
+			<div id="birth">Birthday
+				<h1>"December 24,2005"</h1>
+		<table class="birth-month">
+			<tr class="birth-week">
+				<th>Sunday</th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+				<th>Friday</th>
+				<th>Saturday</th>
+			</tr>
+			<tr>
+				<td></td>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+				<td><a></a></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+			</tr>
+			<tr>
+				<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+			</tr>
+			<tr>
+				<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+			</tr>
+			<tr>
+				<td>21</td><td>22</td><td>23</td><td class="birthday" oneclick="showBirthday()">24</td><td>25</td><td>26</td><td>27</td>
+			</tr>
+			<tr>
+				<td>28</td><td>29</td><td>30</td><td>31</td><td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			</tr>
+		</table>
+			</div>
+			<div id="educ"><h2>Education Background</h2>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<a href="elementary.html"><img src="elem.jpg" class="d-block w-100" alt="...">
+    	<h5>CALOG NORTE SCHOOL</h5>
+    	<p>CALOG NORTE ABULUG CAGAYAN</p>
+    	</a>
+    </div>
+    <div class="carousel-item">
+      <a href="high school.html"><img src="hi.jpg" class="d-block w-100" alt="...">
+    	<h5>DAVID M PUZON MEMORIAL NATIONAL HIGH SCHOOL</h5>
+    	<p>PAMPLONA CAGAYAN</p>
+    	</a>
+    </div>
+    <div class="carousel-item">
+      <a href="Collage.html"><img src="col.jpeg" class="d-block w-100" alt="...">
+    	<h5>APAYAO STATE COLLEGE</h5>
+    	<p>SAN ISIDRO,LUNA,APAYAO</p>
+      	</a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+			</div>
+			<div id="skill">
+  <h2 style="text-align:center;">Skills</h2>
+  <div class="skills-container">
+    
+    <div class="skill-box">
+      <img src="time.jpg" alt="Time Management">
+      <p>Time Management</p>
+    </div>
+
+    <div class="skill-box">
+      <img src="pic.jpg" alt="Teamwork">
+      <p>Teamwork</p>
+    </div>
+    <div class="skill-box">
+      <img src="tm.jpg" alt="Hardworking">
+      <p>Hardworking</p>
+    </div>
+  </div>
+</div>		
+	<div id="birthdayPopup" class="popup">
+  <div class="popup-content">
+    <h1 class="greet"><br><br><br><br><br><br>🎉 Happy Birthday Gerald! 🎉</h1>
+  	<br><br><img src="gegi.jpg" alt="Birthday Image">
+    <br><br>
+  	<br><br><button onclick="closeBirthday()">Close</button>
+  </div>
+</div>
+<audio id="bdayMusic" src="birthday.mp3"></audio>
+<script>function showBirthday() {
+  document.getElementById("birthdayPopup").style.display = "flex";
+  document.getElementById("bdayMusic").play();
+}
+
+function closeBirthday() {
+  document.getElementById("birthdayPopup").style.display = "none";
+  document.getElementById("bdayMusic").pause();
+ document.getElementById("bdayMusic").currentTime = 0;
+}
+	 </script>
+	
+</body>
+</html>
+		
